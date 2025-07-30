@@ -1,17 +1,51 @@
-.nutria{
-    width: 38%;
-    height: 55vh;
+.img{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.imagen{
+    width: 20%;
+    height: 25vh;
+    border-radius: 5%;
+}
 .botones{
-
-    width: 60%;
-    height: 40vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    border-radius: 6px;
+}
+.boton-1{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(90, 79, 139);
+    border-radius:1rem ;
+    transition: background-color 0.3s;
+}
+.boton-1:hover{
+    background-color: lightpink;
+}
+.boton-2{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(90, 79, 139);
+    border-radius:1rem ;
+    transition: background-color 0.3s;
+}
+.boton-2:hover{
+    background-color: lightpink;
+}
+.boton-3{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(90, 79, 139);
+    border-radius:1rem ;
+    transition: background-color 0.3s;
+}
+.boton-3:hover{
+    background-color: lightpink;
 }
