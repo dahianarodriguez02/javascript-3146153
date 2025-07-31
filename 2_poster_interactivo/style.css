@@ -21,6 +21,7 @@
     position: absolute;
     top: 47%;
     left: 20%;
+    cursor: pointer;
 
 }
 
@@ -29,6 +30,8 @@
     position: absolute;
     top: 36%;
     left: 25%;
+     cursor: pointer;
+
 
 }
 
@@ -36,6 +39,7 @@
     position: absolute;
     top: 36%;
     left: 34%;
+     cursor: pointer;
     
 
 }
@@ -44,6 +48,7 @@
     position: absolute;
     top: 53%;
     left: 88%;
+     cursor: pointer;
     
 
 }
@@ -52,6 +57,7 @@
       position: absolute;
     top: 33%;
     left: 52%;
+     cursor: pointer;
   
 
 }
@@ -61,6 +67,7 @@
       position: absolute;
     top: 20%;
     left: 57%;
+     cursor: pointer;
   
 
 }
