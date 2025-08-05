@@ -22,6 +22,7 @@
     top: 47%;
     left: 20%;
     cursor: pointer;
+    animation: infinite plataforma1 5s ease-in-out;  
 
 }
 
@@ -58,6 +59,8 @@
     top: 33%;
     left: 52%;
      cursor: pointer;
+      animation: infinite plataforma1 2s ease-in-out;  
+
   
 
 }
@@ -68,6 +71,7 @@
     top: 20%;
     left: 57%;
      cursor: pointer;
+    
 }
 
 
@@ -88,11 +92,6 @@
         30%{ transform: translateY(-60px);}
         100%{transform: translateY(0px); opacity: 0;}
 }
-
-
-
-
-
 
 
 
@@ -122,4 +121,14 @@
       width: 24px;
       height: 24px;
       margin-right: 8px;
+    }
+
+
+  
+    @keyframes plataforma1 {
+      25%{transform: translateX(-60px);}
+        50%{ transform: translateX(0px) ;}
+        75%{transform: translatex(60px);}
+
+
     }
