@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Video y Imagen</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video id="video" width="400" >
+                <source src="./assets/video.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+            <div class="buttons">
+                <button id="play-video">Play</button>
+                <button id="stop-video">Stop</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image" id="image1">
+                <img class="img-min" src="./assets/lechuza.jpg" alt="Imagen 1">
+                <button id="play-stop-img1">▶️Play</button>
+
+                <audio id="audio-1">
+               <source src="./assets/sonido_lechuza.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+              </audio>
+
+            </div>
+            <div class="image" id="image2">
+                <img class="img-min" src="./assets/perro.jpg" alt="Imagen 1">
+                <button id="play-stop-img2">▶️Play</button>
+
+
+                  <audio id="audio-2">
+               <source src="./assets/sonido_perro.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+              </audio>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
