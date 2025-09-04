@@ -159,3 +159,145 @@ header nav a:hover {
   font-size: 13px;
   color: #888;
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  header {
+    padding: 10px 20px; 
+  }
+
+  header nav ul {
+    gap: 15px;         
+    padding-right: 40px;
+  }
+
+  header .logo img {
+    height: 90px;
+  }
+
+  .intro {
+    flex-direction: column;  
+    text-align: center;
+    padding: 60px 20px;
+    height: auto;
+  }
+
+  .intro .texto {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .intro .imagen img {
+    max-width: 250px;
+    height: auto;
+  }
+
+  .episodios {
+    padding: 20px;
+  }
+
+  .episodios h2 {
+    font-size: 1.8rem;
+    margin-left: 0;  
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;  
+    height: auto;
+  }
+
+  .card img {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+
+  header {
+    flex-direction: column;  
+    padding: 10px;
+    text-align: center;
+  }
+
+  header .logo img {
+    height: 70px; 
+    margin-bottom: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column; 
+    gap: 10px;
+    padding-right: 0;
+  }
+
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+    height: auto;
+  }
+
+  .intro .texto {
+    width: 100%;
+  }
+
+  .intro .texto h1 {
+    font-size: 2rem;
+  }
+
+  .intro .texto p {
+    font-size: 1rem;
+  }
+
+  .intro .imagen img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .episodios {
+    padding: 20px;
+  }
+
+  .episodios h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr; 
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .card img {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 20px 10px;
+  }
+
+  .footer h3 {
+    font-size: 18px;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+}
